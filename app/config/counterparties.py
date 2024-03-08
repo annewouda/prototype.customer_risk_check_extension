@@ -1,5 +1,5 @@
 from app.models.counterparty import CounterParty
-from app.config.limits_per_client import limits_amina, limits_sygnum
+from app.config.limits_per_client import *
 
 
 AMINA = CounterParty(name="Amina",
